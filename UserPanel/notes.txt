@@ -1,0 +1,18 @@
+GATE IDS
+=========
+Maubin => 0
+BOC => 1
+Dala => 2
+========================
+First Car will be at 6AM
+Last Car Will be at 4PM
+
+4 Routes A Day / Gate
+================================
+
+Maximum Number of booking accepts 3 persons.
+
+
+
+// payment merchant callback key
+// 4f45e5b7e768469d3ffbef16bf68c593

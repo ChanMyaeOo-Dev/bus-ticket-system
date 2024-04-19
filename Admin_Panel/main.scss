@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Rubik:wght@400;500;600&display=swap');
+
+$font-family-sans-serif: 'Padauk', sans-serif;
+$font-family-sans-serif: 'Rubik', sans-serif;
+
+// $primary: #005ce6;
+$primary:#024059;
+$dark: #666666;
+$font-size-base: 0.95rem;
+$black: #555555;
+$text_dark: #1d1f1f;
+$text-black:#444444;
+
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import "node_modules/bootstrap/scss/bootstrap";
+//sass --watch main.scss:style.css
+body {
+  font-size: .9rem;
+}
+
+main {
+  background: #026E8103 !important;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
+
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 0 0 !important;
+  border: 1px solid $dark;
+}
+
+
+.custom_input_box {
+  height: 48px;
+}
+
+.custom_input_box,
+.seat_num_counter {
+  border: 0.5px solid #88888830 !important;
+}
+
+.btn-primary {
+  color: white !important;
+}
+
+.btn-outline-primary:hover {
+  color: white !important;
+}
+
+.userImg {
+  width: 42px;
+  height: 42px;
+}
+
+.navbar-brand{
+  box-shadow: 0 0 0 0 !important;
+}
+
+.nav_active {
+  background: $primary;
+  color: white !important;
+  border-radius: 8px;
+  font-weight: 400 !important;
+}
+
+.nav_active:hover{
+  background-color: rgba($color: $primary, $alpha: .8) !important;
+}
+
+.nav-link{
+  font-weight: 300 !important;
+  height: 40px !important;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.nav-item:hover .nav-link {
+  background-color: rgba($color: $primary, $alpha: .08);
+}
+
+.nav-item:active .nav-link {
+  color: #444444 !important;
+}
+
+.custom_switch {
+  box-shadow: inset 0 .125rem .25rem rgba($black, .1);
+  padding: 11px 5px 11px 5px !important;
+}
+
+.switch_active {
+  background: white;
+  color: $primary !important;
+  box-shadow: 0 .125rem .25rem rgba($black, .1);
+}
+
+.bg_light_blue {
+  background: #d6e5ff !important;
+}
+
+.bg_light_purple {
+  background: #e5dfff !important;
+}
+
+.bg_light_yellow {
+  background: #fff3e5 !important;
+}
+
+.iconLink {
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+  border-radius: 50% !important;
+}
+
+.number_card {
+  border: 1px solid #ebebeb !important;
+  transition: 0.3s ease-in-out;
+}
+
+.number_card:hover {
+  transform: translateY(-3px) scale(1.01);
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 16px rgba($primary, .08) !important;
+}
+
+
+.order_th, .product_th {
+  z-index: 1000 !important;
+}
+
+.driver_image {
+  width: 45px;
+  height: 45px;
+  border: 3px solid rgba($color: $primary, $alpha: 0.16) !important;
+  object-fit: fill;
+}
+
+.shadow_ssm {
+  box-shadow: 0 .1rem .1rem rgba(#000000, .055);
+}
+
+.shadow_sm {
+  box-shadow: 0 0px 4px rgba($color: #000000, $alpha: .06);
+}
+
+.plant_item:hover {
+  cursor: pointer !important;
+  transform: scale(1.02);
+  transition: 0.3s;
+  box-shadow: 0 .155rem .255rem rgba(#000000, .075);
+}
+
+.description {
+  text-align: justify !important;
+}
+
+.text_paragraph {
+  line-height: 1.8rem !important;
+  font-size: .800rem;
+  text-align: justify !important;
+}
+
+.cart_item {
+
+  img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+
+}
+
+.table tr td {
+  vertical-align: middle !important;
+}
+
+.btn-number {
+  height: 100% !important;
+}
+
+.cart_price, .cart_total_price, .cart_qty_input {
+  width: 90px !important;
+}
+
+.cart_qty {
+  width: 120px !important;
+  border: 1px solid $dark;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0 !important;
+  border: 1px solid $dark;
+}
+
+.btn_choose_seat {
+  background: #ffffff !important;
+  height: 60px !important;
+  border: 1px solid #88888815!important;
+}
+
+.seat_active {
+  background: #777777 !important;
+  border-radius: 10px !important;
+}
+
+.seat_available {
+  background: $primary !important;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+}
+
+.btn-booked {
+  background: #e1e1e1 !important;
+}
+
+.select_route {
+  width: 400px !important;
+}
+
+.btn_seat {
+  height: 70px !important;
+}
+
+.user_account{
+  position: absolute;
+  bottom: 24px !important;
+}
+
+.account{
+  height: 40px !important;
+  font-size: 18px !important;
+  i{
+    padding: 8px;
+    background-color: rgba($color: $primary, $alpha: .08);
+    border-radius: 8px;
+  }
+}
+
+.custom_button{
+  height: 48px !important;
+  gap: 8px !important;
+}
+
+.dashboard_card{
+  h3{
+    color: #1d1f1f !important;
+  }
+  p{
+    font-size: 14px !important;
+    color: $dark;
+  }
+}
+
+.head_section{
+  height: 56px !important;
+}
+
+.header_title{
+  color: $text_dark;
+  margin: 0 !important;
+}
+
+.see_all{
+  text-decoration: none;
+}
+
+.see_all:hover{
+  color: $primary !important;
+}
+
+.table_header{
+  font-size: 14px !important;
+  color: #808080 !important;
+}
+
+.table_body{
+  color: #696969;
+}
+
+.table_data:hover{
+  background-color: rgba($color: $primary, $alpha: 0.06) !important;
+  cursor: pointer;
+  div{
+    p{
+      color: #1d1f1f;
+    }
+  }
+}
+
+.modal{
+  box-shadow: rgba($color: #000000, $alpha: 0.16) !important;
+  backdrop-filter: blur(2px);
+}
+
+.modal-dialog{
+  width: 480px !important;
+}
+
+.icon_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+}
+
+.icon_button:hover{
+  background-color: $primary;
+  color: white;
+  border: none;
+}
+
+.custom_photo_div{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  img{
+    width: 150px !important;
+    border-radius: 500px !important;
+  }
+
+  .photo_choose_icon{
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    position: absolute;
+    bottom: 8px;
+    right: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color: $primary, $alpha: 1);
+    color: white;
+  }
+  .photo_choose_icon:hover{
+    background-color: $primary;
+    i{
+      color: white !important;
+    }
+  }
+}
+
+.image_container{
+  img{
+    width: 640px !important;
+  }
+}
+
+.right_section{
+  background-color: #024059!important;
+  // background-color: rgb(56, 67, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texture{
+  position: absolute;
+  right: -35%;
+  top: -10%;
+  z-index: 1000;
+}
+
+.Logo{
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
+    "html2pdf.js": "^0.10.1",
+    "sass": "^1.57.1",
+    "scss": "^0.2.4"
+  }
+}
